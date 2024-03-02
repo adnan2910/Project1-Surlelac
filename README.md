@@ -8,4 +8,9 @@
 # For this Modules written the Automation script and performing Functional and Integration Testing.
 # The Scenarios Covered in this project are given below:
 - Homepage
-  - 
+  - check shop link
+  - check lookbook link
+  - check contact link
+  - check about link
+  - check search link
+  - check cart link
