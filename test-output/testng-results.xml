@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T12:45:36 IST" name="Suite" finished-at="2024-03-02T12:47:35 IST" duration-ms="118404">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T12:45:36 IST" name="Test1" finished-at="2024-03-02T12:46:01 IST" duration-ms="25137">
+      <class name="SurlelacTC.Frontpage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:36 IST" name="openBrowser" finished-at="2024-03-02T12:45:45 IST" duration-ms="8317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Abc1()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:45 IST" name="Abc1" description="Frontpage- Abc1 method" finished-at="2024-03-02T12:45:47 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc1 -->
+        <test-method signature="Abc2()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:47 IST" name="Abc2" description="Frontpage- Abc2 method" finished-at="2024-03-02T12:45:50 IST" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc2 -->
+        <test-method signature="Abc3()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:50 IST" name="Abc3" description="Frontpage- Abc3 method" finished-at="2024-03-02T12:45:51 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc3 -->
+        <test-method signature="Abc4()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:51 IST" name="Abc4" description="Frontpage- Abc4 method" finished-at="2024-03-02T12:45:52 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc4 -->
+        <test-method signature="Abc5()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:52 IST" name="Abc5" description="Frontpage- Abc5 method" finished-at="2024-03-02T12:45:57 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc5 -->
+        <test-method signature="Abc6()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:57 IST" name="Abc6" description="Frontpage- Abc6 method" finished-at="2024-03-02T12:45:58 IST" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc6 -->
+        <test-method signature="Abc7()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:45:58 IST" name="Abc7" description="Frontpage- Abc7 method" finished-at="2024-03-02T12:45:59 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc7 -->
+        <test-method signature="Abc8()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:46:00 IST" name="Abc8" description="Frontpage- Abc8 method" finished-at="2024-03-02T12:46:01 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abc8 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SurlelacTC.Frontpage@1283bb96]" started-at="2024-03-02T12:46:01 IST" name="closeBrowser" finished-at="2024-03-02T12:46:01 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SurlelacTC.Frontpage -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-03-02T12:46:01 IST" name="Test2" finished-at="2024-03-02T12:47:00 IST" duration-ms="58425">
+      <class name="SurlelacTC.HeaderPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:01 IST" name="openBrowser" finished-at="2024-03-02T12:46:13 IST" duration-ms="11636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Wxy()[pri:0, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:13 IST" name="Wxy" description="HeaderPage- Wxy method" finished-at="2024-03-02T12:46:16 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy -->
+        <test-method signature="Wxy1()[pri:1, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:16 IST" name="Wxy1" description="HeaderPage- Wxy1 method" finished-at="2024-03-02T12:46:19 IST" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy1 -->
+        <test-method signature="Wxy2()[pri:2, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:19 IST" name="Wxy2" description="HeaderPage- Wxy2 method" finished-at="2024-03-02T12:46:20 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy2 -->
+        <test-method signature="Wxy3()[pri:3, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:20 IST" name="Wxy3" description="HeaderPage-  Wxy3" finished-at="2024-03-02T12:46:21 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy3 -->
+        <test-method signature="Wxy4()[pri:4, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:21 IST" name="Wxy4" description="HeaderPage- Wxy4 method" finished-at="2024-03-02T12:46:22 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy4 -->
+        <test-method signature="Wxy5()[pri:5, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:22 IST" name="Wxy5" description="HeaderPage- Wxy5 method" finished-at="2024-03-02T12:46:28 IST" duration-ms="5501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy5 -->
+        <test-method signature="Wxy6()[pri:6, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:28 IST" name="Wxy6" description="HeaderPage- Wxy6 method" finished-at="2024-03-02T12:46:34 IST" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy6 -->
+        <test-method signature="Wxy7()[pri:7, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:34 IST" name="Wxy7" description="HeaderPage- Wxy7 method" finished-at="2024-03-02T12:46:39 IST" duration-ms="5779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy7 -->
+        <test-method signature="Wxy8()[pri:8, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:39 IST" name="Wxy8" description="HeaderPage- Wxy8 method" finished-at="2024-03-02T12:46:45 IST" duration-ms="5523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy8 -->
+        <test-method signature="Wxy9()[pri:9, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:45 IST" name="Wxy9" description="HeaderPage- Wxy9 method" finished-at="2024-03-02T12:46:51 IST" duration-ms="5781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy9 -->
+        <test-method signature="Wxy10()[pri:10, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:51 IST" name="Wxy10" description="HeaderPage- Wxy10 method" finished-at="2024-03-02T12:46:57 IST" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy10 -->
+        <test-method signature="Wxy11()[pri:11, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:57 IST" name="Wxy11" description="HeaderPage- Wxy11 method" finished-at="2024-03-02T12:46:57 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy11 -->
+        <test-method signature="Wxy12()[pri:12, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:57 IST" name="Wxy12" description="HeaderPage- Wxy12 method" finished-at="2024-03-02T12:46:58 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy12 -->
+        <test-method signature="Wxy13()[pri:13, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:58 IST" name="Wxy13" description="HeaderPage- Wxy13 method" finished-at="2024-03-02T12:46:58 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy13 -->
+        <test-method signature="Wxy14()[pri:14, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:46:58 IST" name="Wxy14" description="HeaderPage- Wxy14 method" finished-at="2024-03-02T12:47:00 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy14 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SurlelacTC.HeaderPage@c730b35]" started-at="2024-03-02T12:47:00 IST" name="closeBrowser" finished-at="2024-03-02T12:47:00 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SurlelacTC.HeaderPage -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-03-02T12:47:00 IST" name="Test3" finished-at="2024-03-02T12:47:22 IST" duration-ms="21994">
+      <class name="SurlelacTC.FooterPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:00 IST" name="openBrowser" finished-at="2024-03-02T12:47:06 IST" duration-ms="6458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Wxy()[pri:0, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:06 IST" name="Wxy" description="FooterPage- Wxy method" finished-at="2024-03-02T12:47:09 IST" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy -->
+        <test-method signature="Wxy1()[pri:1, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:09 IST" name="Wxy1" description="FooterPage- Wxy1 method" finished-at="2024-03-02T12:47:09 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy1 -->
+        <test-method signature="Wxy2()[pri:2, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:09 IST" name="Wxy2" description="FooterPage- Wxy2 method" finished-at="2024-03-02T12:47:11 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy2 -->
+        <test-method signature="Wxy4()[pri:4, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:11 IST" name="Wxy4" description="FooterPage- Wxy4 method" finished-at="2024-03-02T12:47:15 IST" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy4 -->
+        <test-method signature="Wxy5()[pri:5, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:15 IST" name="Wxy5" description="FooterPage- Wxy5 method" finished-at="2024-03-02T12:47:19 IST" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy5 -->
+        <test-method signature="Wxy6()[pri:6, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:19 IST" name="Wxy6" description="FooterPage- Wxy5 method" finished-at="2024-03-02T12:47:22 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wxy6 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SurlelacTC.FooterPage@36ebc363]" started-at="2024-03-02T12:47:22 IST" name="closeBrowser" finished-at="2024-03-02T12:47:22 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SurlelacTC.FooterPage -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-03-02T12:47:22 IST" name="Test4" finished-at="2024-03-02T12:47:35 IST" duration-ms="12795">
+      <class name="SurlelacTC.Shoppage">
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:45:36 IST" name="reportGenerate" finished-at="2024-03-02T12:45:36 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:22 IST" name="openBrowser" finished-at="2024-03-02T12:47:26 IST" duration-ms="4178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="xyz1()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:26 IST" name="xyz1" description="Shoppage- xyz1 method" finished-at="2024-03-02T12:47:28 IST" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz1 -->
+        <test-method signature="xyz2()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:28 IST" name="xyz2" description="Shoppage - xyz2 method" finished-at="2024-03-02T12:47:28 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz2 -->
+        <test-method signature="xyz3()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:28 IST" name="xyz3" description="Shoppage - xyz3 method" finished-at="2024-03-02T12:47:29 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz3 -->
+        <test-method signature="xyz4()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:29 IST" name="xyz4" description="Shoppage - xyz4 method" finished-at="2024-03-02T12:47:29 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz4 -->
+        <test-method signature="xyz5()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:29 IST" name="xyz5" description="Shoppage - xyz5 method" finished-at="2024-03-02T12:47:30 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz5 -->
+        <test-method signature="xyz6()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:30 IST" name="xyz6" description="Shoppage - xyz6 method" finished-at="2024-03-02T12:47:32 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz6 -->
+        <test-method signature="xyz7()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:32 IST" name="xyz7" description="Shoppage - xyz7 method" finished-at="2024-03-02T12:47:34 IST" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz7 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:34 IST" name="closeBrowser" finished-at="2024-03-02T12:47:35 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:SurlelacTC.Shoppage@4c402120]" started-at="2024-03-02T12:47:35 IST" name="endReport" finished-at="2024-03-02T12:47:35 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- SurlelacTC.Shoppage -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
