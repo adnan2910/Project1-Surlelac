@@ -1,6 +1,6 @@
 package SurlelacTC;
 
-
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -37,14 +37,15 @@ public class FooterPage extends BaseClass{
 		softass.assertEquals(result, true,"Click to Failed on email input box.");
 	}
 	
-//	@Test(description="FooterPage- Wxy3 method", priority=3)
-//	public void Wxy3()
-//	{
-//		Footerpage Hp = new Footerpage();
-//		boolean result = Hp.subscibebtn();
-//		SoftAssert softass = new SoftAssert();
-//		softass.assertEquals(result, true,"Click to Failed on Subscribe button.");
-//	}
+	@Ignore
+	@Test(description="FooterPage- Wxy3 method", priority=3)
+	public void Wxy3()
+	{
+		Footerpage Hp = new Footerpage();
+		boolean result = Hp.subscibebtn();
+		SoftAssert softass = new SoftAssert();
+		softass.assertEquals(result, true,"Click to Failed on Subscribe button.");
+	}
 	
 	@Test(description="FooterPage- Wxy4 method", priority=4)
 	public void Wxy4()
