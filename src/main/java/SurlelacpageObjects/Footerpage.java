@@ -26,8 +26,8 @@ public class Footerpage extends BaseClass {
 	@FindBy(xpath="//input[@id='NewsletterForm--footer']")
 	WebElement emailinpt;
 	
-//	@FindBy(xpath="//span[text()='Subscribe']")
-//	WebElement subBtn;
+	@FindBy(xpath="//span[text()='Subscribe']")
+	WebElement subBtn;
 	
 	@FindBy(xpath="//div[contains(@class,'footermenu-newdesign')]//a[@href='/pages/privacy-policy']")
 	WebElement pripolylink;
@@ -39,7 +39,7 @@ public class Footerpage extends BaseClass {
 //	WebElement tiklink;
 	
 	@FindBy(xpath="//div[contains(@class,'footer__copyright')]//a[@href='https://yourportalonline.com/']")
-    WebElement pwdlink;
+        WebElement pwdlink;
 	
 	public Footerpage()
 	{
@@ -96,20 +96,20 @@ public class Footerpage extends BaseClass {
 		}
 	}
 	
-//	public boolean subscibebtn()
-//	{
-//		try {
-//			subBtn.click();
-//			BaseClass.log().info("Clicked on Subscribe button");
-//			ExtentManager.test.log(Status.PASS, "Clicked on Subscribe button");
-//			return true;
-//		}catch(Exception e)
-//		{
-//			BaseClass.log().error("Exception generated: " + e);
-//			ExtentManager.test.log(Status.FAIL, "Failed to click on Subscribe button");
-//			return false;
-//		}
-//	}
+	public boolean subscibebtn()
+	{
+		try {
+			subBtn.click();
+			BaseClass.log().info("Clicked on Subscribe button");
+			ExtentManager.test.log(Status.PASS, "Clicked on Subscribe button");
+			return true;
+		}catch(Exception e)
+		{
+			BaseClass.log().error("Exception generated: " + e);
+			ExtentManager.test.log(Status.FAIL, "Failed to click on Subscribe button");
+			return false;
+		}
+	}
 	
 	public boolean priPolicy()
 	{
