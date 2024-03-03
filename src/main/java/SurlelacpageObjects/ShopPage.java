@@ -44,7 +44,7 @@ public class ShopPage extends BaseClass
 	WebElement checkout;
 	
 	@FindBy(xpath="//div[contains(@class,'_1fragemeg')]//input[@id='email']")
-	WebElement shopLink9;
+	WebElement inputemail;
 	
 //	@FindBy(xpath = "//select[@id='Select2']")
 //	WebElement shopLink10;
@@ -172,6 +172,45 @@ public class ShopPage extends BaseClass
 		{
 			BaseClass.log().error("Exception generated: " + e);
 			ExtentManager.test.log(Status.FAIL, "Failed to click on Addtocart");
+			return false;
+		}
+	}
+
+	public boolean clickOnShopLink8()
+	{
+		try {
+			Thread.sleep(1000);
+			checkout.click();
+			BaseClass.log().info("Clicked on Checkout Button");
+			ExtentManager.test.log(Status.PASS, "Clicked on Checkout Button");
+			Thread.sleep(2000);
+			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+			return true;
+		}catch(Exception e)
+		{
+			BaseClass.log().error("Exception generated: " + e);
+			ExtentManager.test.log(Status.FAIL, "Failed to click on Checkout Button");
+			return false;
+		}
+	}
+	
+	public boolean clickOnShopLink9()
+	{
+		try {
+			inputemail.click();
+			Thread.sleep(1000);
+			Actions act2 = new Actions(driver);
+            act2.sendKeys("adnanmohammad8900@gmail.com");
+  	        act2.keyDown(Keys.ENTER).build().perform();
+			BaseClass.log().info("Clicked on Input Email");
+			ExtentManager.test.log(Status.PASS, "Clicked on Input Email");
+			Thread.sleep(2000);
+			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+			return true;
+		}catch(Exception e)
+		{
+			BaseClass.log().error("Exception generated: " + e);
+			ExtentManager.test.log(Status.FAIL, "Failed to click on Input Email");
 			return false;
 		}
 	}
